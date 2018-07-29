@@ -1,0 +1,13 @@
+body {
+  font-family: 'Merriweather', serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
