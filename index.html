@@ -9,19 +9,20 @@
 <body>
 
 
-      <header class="main-header">
-          <h1>The Code Review</h1>
-      </header>
+        <h1>The Code Review</h1>
 
 
   <form action="index.html" method="post">
 
-    <h1>Signup for our newsletter</h1>
+    <h2>Signup for our newsletter</h2>
     <p>Get the latest news on how your code is doing right in your inbox.</p>
+
+    <hr class="line-one">
+    <hr class="line-two">
 
     <fieldset>
 
-      <legend>Contact Information</legend>
+      <legend class="contact_info">Contact Information</legend>
 
       <label for="name">Full Name</label>
       <input type="text" id="name" name="user_name" placeholder="Required">
@@ -92,22 +93,31 @@
 
     </fieldset>
 
+    <hr class="line-three">
+
     <fieldset>
 
-      <legend>Newsletter</legend>
+      <legend class="newsletter">Newsletter</legend>
 
-      <label>Select the newletters you would like to recieve</label>
+      <label class="select">Select the newletters you would like to recieve</label>
       <input type="checkbox" id="html" value="news_html" name="news"><label class="light" for="html">HTML News</label><br>
       <input type="checkbox" id="design" value="news_css" name="news"><label class="light" for="css">CSS News</label><br>
       <input type="checkbox" id="business" value="news_javascript" name="news"><label class="light" for="javascript">JavaScript News</label>
 
 
-      <label>Newsletter format</label>
+      <label class="news_format">Newsletter format</label>
       <input type="radio" id="radio_html" value="format_html" name="user_format"><label for"radio_html" class="light">HTML</label><br>
       <input type="radio" id="radio_plaintext" value="format_plaintext" name="user_format"><label for"radio_plaintext" class="light">Plain text</label>
 
+      <label for="feedback" class="topics">Other topics you'd like to hear about</label>
+      <input type="feedback" id="feedback" name="user_feedback">
+
+      <button type="submit">Sign Up</button>
 
 
+<footer class="main-footer">
+  <p>Copyright The Code Review</p>
+</footer>
 
 
 </body>
