@@ -115,7 +115,7 @@ input[type="checkbox"] {
   margin: 0 4px 8px 0;
 }
 
-input[type="color"] {
+.feedback {
   background: rgba(255,255,255,0.1);
   border: none;
   font-size: 16px;
