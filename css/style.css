@@ -5,7 +5,6 @@ body {
 label {
   display: block;
   margin-bottom: 8px;
-  color: red;
 }
 
 fieldset {
@@ -151,7 +150,16 @@ button {
 }
 
 @media (min-width: 768px) {
-  label {
-    color: blue;
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .label {
+    width: 28%;
+  }
+
+  .input {
+    width: 72%;
   }
 }
